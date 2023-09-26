@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a7df666b2e6f4a23a2324d7a99357613" Name="Diagram1">
+        <EntityTypeShape EntityType="TourManagementModel.Booking" Width="1.5" PointX="0.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Customer" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Employee" Width="1.5" PointX="7.875" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Hotel" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Place" Width="1.5" PointX="5.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Review" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.sysdiagram" Width="1.5" PointX="7.875" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Tour" Width="1.5" PointX="3.125" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TourManagementModel.Transportation" Width="1.5" PointX="3.125" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="TourManagementModel.FK__Bookings__HotelI__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Bookings__TourId__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Bookings__Transp__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Bookings__UserId__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Reviews__Custome__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Tours__PlaceId__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="TourManagementModel.FK__Reviews__TourId__4CA06362" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
